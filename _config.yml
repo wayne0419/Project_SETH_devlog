@@ -1,7 +1,7 @@
 # Site settings
 title:          Project SETH
 description:    "this is description"
-baseurl:        ""
+baseurl:        "Project_SETH_devlog"
 url:            ""
 
 # Google Analytics
