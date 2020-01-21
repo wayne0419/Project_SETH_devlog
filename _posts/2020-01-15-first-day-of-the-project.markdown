@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "First Day of The Project: Where Everything begins."
-date:   2020-01-15 15:12:20 -0500
-categories: jekyll update
 author: CheWei
 ---
 Before the project "formally" started, the first thing I do is to set up this devlog.
