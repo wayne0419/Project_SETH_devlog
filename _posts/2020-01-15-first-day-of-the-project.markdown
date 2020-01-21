@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Day of The Project: Where Everything begins."
+title:  "First Day of The Project: Where Everything Begins."
 author: CheWei
 ---
 Before the project "formally" started, the first thing I do is to set up this devlog.
