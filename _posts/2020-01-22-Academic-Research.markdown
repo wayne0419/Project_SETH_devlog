@@ -71,3 +71,37 @@ Extract highlight from baseball game video by capturing specific combos of scene
 
 **19. Unsupervised Extraction of Video Highlights Via Robust Recurrent Auto-encoders**
 [source](http://openaccess.thecvf.com/content_iccv_2015/papers/Yang_Unsupervised_Extraction_of_ICCV_2015_paper.pdf)<br><br>
+
+**20. Unsupervised Extraction of Video Highlights Via Robust Recurrent Auto-encoders**
+[source](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/2668/0000/Visual-content-highlighting-via-automatic-extraction-of-embedded-captions-on/10.1117/12.235443.pdf?casa_token=JQPdEXKiKhgAAAAA:bvjYwyjIckXaISnrS3MnG9JEX6G8Jxtk5nCpYN95lRFAXOF_n1L42DCcI_LWtbMh1lKwBe7F5A)<br><br>
+
+**21. Task specific audio classification for identifying video highlights**
+[source](https://patentimages.storage.googleapis.com/9a/aa/1b/2055d412923afc/US7558809.pdf)<br><br>
+
+**22. An Integrated Scheme for Automated Video Abstraction Based on Unsupervised Cluster-Validity Analysis**
+[source](https://www.researchgate.net/profile/Alan_Hanjalic/publication/3308095_An_integrated_scheme_for_automated_video_abstraction_based_on_unsupervised_cluster-validity_analysis/links/0912f508e2061a3784000000/An-integrated-scheme-for-automated-video-abstraction-based-on-unsupervised-cluster-validity-analysis.pdf)<br><br>
+
+**23. Method and systems for computer video game streaming, highlight and replay**
+[source](https://patentimages.storage.googleapis.com/35/84/5f/87a860a34a4389/US9782678.pdf)<br><br>
+
+**24. Automatically Extracting Highlights for TV Baseball Programs**
+[source](https://dl.acm.org/doi/pdf/10.1145/354384.354443?casa_token=gQ-Gva711tUAAAAA:6rE9fwNS0GFPBrxG3P_7X0QLaO0UqiBtUuUPC3NCvTaPuffy1CDAXVZ0j2x2tVu7k_Y4STBl7oAv4w)<br><br>
+
+**25. Temporal Feature Induction  for Baseball Highlight Classification**
+[source](https://dl.acm.org/doi/pdf/10.1145/1291233.1291305?casa_token=LU-CYj2t1ygAAAAA:BcXvlpshOGwY0578NqGliVIrMyAUrga2QCDLwZ-dc4dbOG45Gae6C1nnLjS8PTsxg5xesfn3OK-dFQ)<br><br>
+
+
+**26. Video Summarization and Scene Detection by Graph Modeling**
+[source](http://vireo.cs.cityu.edu.hk/papers/tcsvt05.pdf)<br><br>
+
+**27. Extensible Detection and Indexing of Highlight Events in Broadcasted Sports Video**
+[source](http://eprints.qut.edu.au/4939/1/4939.pdf)<br><br>
+
+**28. A Semi-automatic Approach to Detect Highlights for Home Video Annotation**
+[source](http://shiftleft.com/mirrors/www.hpl.hp.com/research/isl/highlight/0500957.pdf)<br><br>
+
+**29. Video Summarisation: A Conceptual Framework and Survey**
+[source](https://bura.brunel.ac.uk/bitstream/2438/8012/2/Fulltext.pdf)<br><br>
+
+**30. Model Checking for Detection of Sport Highlights**
+[source](https://dl.acm.org/doi/pdf/10.1145/973264.973298?casa_token=krfaNH-J1L8AAAAA:XRr7nQc-lVV3VLBC9wW-L9K5TN-ZvP_cLIEUJAar27LdJ8jElwm5v4ZQgDEiFa6Ix3Ip5vD6jgwBgA)<br><br>
