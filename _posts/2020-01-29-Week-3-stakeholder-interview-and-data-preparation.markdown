@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 3: Stakeholder Interview and Dara Preparation."
+title:  "Week 3: Stakeholder Interview and Data Preparation."
 author: CheWei
 ---
 My research topic is to build a program that can automatically extract/locate timestamps of highlights from video game stream recording.
@@ -28,7 +28,7 @@ These are the questions I ask about after a short introduction of who I am and w
 **Is there any kind of highlights that have no or opposite influence on chatlog and can possibly be neglected by this detection method?**
 <br>
 
-# Dara Preparation
+# Data Preparation
 The data I am going to need for this project will be the streaming recording vieo, and its timestamped chalog.
 
 I start with finding ways to gather data from Twitch. 
