@@ -90,8 +90,13 @@ This allows creators to first use the tool and look at the no-filter generated h
 ## Suppose this tool capture highlight by analyzing conditions of chat (ex: temporary burst increase in chat amount, text or emoji spam). Is three any kind of highlight that may be neglected? Or any kind of outliers?
 
 **Idle名字可以隨時改 & LunMeow & ICKID**<br>
-Possible neglected highlights
-
+**Possible outliers:**<br>
+1. Streamer and the audience greet each other in the front of the stream<br>
+2. Streamer asks the audience a question, and then the audience answer<br>
+3. Special streaming plugin for interatcion between streamer and the audience (ex: a streamer allows his audience to gamble with wheir loyalty point on some mini games, and how the audience place their bet is through typing in chat)
+4. Audience interact with each other (ex: the chat room manager says will ban anyone spam "XXX", and then other audience make fun by spaming "XXX")
+**Possible neglected highlights:**<br>
+1. Some highlights consist of cause and result. The cause and result may cross a long time(ex: 15min). However, my current method to extract highlight can only capture the result and 30s around it.
 
 ## For streamers with much less audience in chat room, will it be difficult for this tool to detect highlight for their stream recording?
 
