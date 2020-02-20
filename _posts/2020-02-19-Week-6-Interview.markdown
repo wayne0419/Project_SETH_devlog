@@ -89,10 +89,8 @@ This allows creators to first use the tool and look at the no-filter generated h
 
 ## Suppose this tool capture highlight by analyzing conditions of chat (ex: temporary burst increase in chat amount, text or emoji spam). Is three any kind of highlight that may be neglected? Or any kind of outliers?
 
-**Idle名字可以隨時改**<br>
-
-
-**LunMeow & ICKID**<br>
+**Idle名字可以隨時改 & LunMeow & ICKID**<br>
+Possible neglected highlights
 
 
 ## For streamers with much less audience in chat room, will it be difficult for this tool to detect highlight for their stream recording?
