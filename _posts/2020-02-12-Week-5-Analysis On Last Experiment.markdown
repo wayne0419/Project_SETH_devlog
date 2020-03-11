@@ -31,7 +31,7 @@ Acording to the section length = 15s version, I find out that:
 
 26 extra highlights are above 75 percentile
 
-Then I researched on the [Moviepu](https://zulko.github.io/moviepy/) library to try to make some automative highligh cuts.
+Then I researched on the [Moviepy](https://zulko.github.io/moviepy/) library to try to make some automative highligh cuts.
 
 This is a result that I use the section length = 15s and threshold = 95%, and for those chatlog peak that pass the threshold, I extract -15s ~ +15s.
 
