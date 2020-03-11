@@ -11,6 +11,20 @@ This week, I lean and use python flask + ngnix + gunicorn + AWS ec2 to build a w
 This is the link to the web application:
 [http://ec2-3-16-91-218.us-east-2.compute.amazonaws.com/](http://ec2-3-16-91-218.us-east-2.compute.amazonaws.com/)
 
+Here is one sample result:
+
+VOD id: 563284208
+
+VOD length: 04:37:26
+
+Highlight extraction period: 00:00:00 ~ 04:00:00
+
+Highlight Timestamp: [download](../images/week-7-9/563284208_15_0:0:0-4:0:0_p95)
+
+Hilight Clip: [https://www.youtube.com/watch?v=QrCeRoz-5GU](https://www.youtube.com/watch?v=QrCeRoz-5GU)
+
+
+
 # Learn, build and debug
 After some research, I decided to use python flask as the backend of the application because of its easy to learn and use.
 
@@ -136,3 +150,27 @@ After some struggle, I found this work:
 
 Then I edit my code and the web application can now generate both timestamps and highlight-clips.
 
+Then I kept testing and found out two problems:
+
+1. After I turned off ec2 instance's terminal, the web application started functioning weiredly.
+
+2. When one user is using the web application to extract highlights, another new user get blocks and have to wait.
+
+After another series of research, I found out that instead of typing
+
+{% highlight ruby %}
+gunicorn --timeout 3600 app:app
+{% endhighlight %}
+
+to run the web application,I should add -w flag and -D flag. "-w" specifies how many workers work simultaneously, which solves problem 2, and "-D" runs the web application in Daemon mode, which keeps the web application running after closing the terminal.
+
+So
+{% highlight ruby %}
+gunicorn -w 5 -D --timeout 3600 app:app
+{% endhighlight %}
+
+The remaining bug is that, under deamon mode, sometimes, the web application will not redirect to download page after finish extraction. 
+
+And users have to refresh and press extract again to redirect.
+
+I am investigating on this...
