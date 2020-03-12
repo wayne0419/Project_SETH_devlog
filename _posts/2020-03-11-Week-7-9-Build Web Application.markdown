@@ -134,15 +134,22 @@ So now I have a web application that can generate highlight-timestamp, how about
 So I researched on some tools that I can use to download twitch VOD through command line, most of them no longer works:
 
 [https://github.com/ihabunek/twitch-dl](https://github.com/ihabunek/twitch-dl)
+
 [https://github.com/UgurKap/Twitch-Video-Downloader](https://github.com/UgurKap/Twitch-Video-Downloader)
+
 [https://github.com/amiechen/twitch-batch-loader](https://github.com/amiechen/twitch-batch-loader)
+
 
 So I also looked at twitch's API and tried some of them, but still  confused and stuck.
 For example:
 [https://dev.twitch.tv/docs/v5/reference/videos#get-video](https://dev.twitch.tv/docs/v5/reference/videos#get-video)
+
 [https://dev.twitch.tv/docs/api/reference#get-videos](https://dev.twitch.tv/docs/api/reference#get-videos)
+
 [https://api.twitch.tv/api/vods/553392894/access_token](https://api.twitch.tv/api/vods/553392894/access_token)
+
 [https://api.twitch.tv/kraken/videos/553392894](https://api.twitch.tv/kraken/videos/553392894)
+
 [https://vod-secure.twitch.tv/d2nvs31859zcd8/chunked/3-muted.ts](https://vod-secure.twitch.tv/d2nvs31859zcd8/chunked/3-muted.ts)
 
 After some struggle, I found this work:
