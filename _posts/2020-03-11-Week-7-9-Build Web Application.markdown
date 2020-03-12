@@ -21,7 +21,7 @@ Highlight extraction period: 00:00:00 ~ 03:00:00
 
 Highlight Timestamp: [download](../images/week-7-9/564376962_15_0_0_0-3_0_0_p95)
 
-Hilight Clip: [https://www.youtube.com/watch?v=QrCeRoz-5GU](https://www.youtube.com/watch?v=MoYfqXkNy3I)
+Hilight Clip: [https://www.youtube.com/watch?v=MoYfqXkNy3I](https://www.youtube.com/watch?v=MoYfqXkNy3I)
 
 **VOD id: 563284208**
 
@@ -32,6 +32,16 @@ Highlight extraction period: 00:00:00 ~ 04:00:00
 Highlight Timestamp: [download](../images/week-7-9/563284208_15_0:0:0-4:0:0_p95)
 
 Hilight Clip: [https://www.youtube.com/watch?v=QrCeRoz-5GU](https://www.youtube.com/watch?v=QrCeRoz-5GU)
+
+**VOD id: 563860413**
+
+VOD length: 04:24:01
+
+Highlight extraction period: 00:00:00 ~ 04:00:00
+
+Highlight Timestamp: [download](../images/week-7-9/563860413_15_0_0_0-4_0_0_p95)
+
+Hilight Clip: [https://www.youtube.com/watch?v=WQRUd-5cQeU](https://www.youtube.com/watch?v=WQRUd-5cQeU)
 
 
 # Learn, build and debug
