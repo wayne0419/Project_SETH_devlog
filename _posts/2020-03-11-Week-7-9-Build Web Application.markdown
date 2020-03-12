@@ -11,9 +11,19 @@ This week, I lean and use python flask + ngnix + gunicorn + AWS ec2 to build a w
 This is the link to the web application:
 [http://ec2-3-16-91-218.us-east-2.compute.amazonaws.com/](http://ec2-3-16-91-218.us-east-2.compute.amazonaws.com/)
 
-Here is one sample result:
+Here are some sample results:
 
-VOD id: 563284208
+**VOD id: 564376962**
+
+VOD length: 03:16:31
+
+Highlight extraction period: 00:00:00 ~ 03:00:00
+
+Highlight Timestamp: [download](../images/week-7-9/564376962_15_0_0_0-3_0_0_p95)
+
+Hilight Clip: [https://www.youtube.com/watch?v=QrCeRoz-5GU](https://www.youtube.com/watch?v=MoYfqXkNy3I)
+
+**VOD id: 563284208**
 
 VOD length: 04:37:26
 
@@ -22,7 +32,6 @@ Highlight extraction period: 00:00:00 ~ 04:00:00
 Highlight Timestamp: [download](../images/week-7-9/563284208_15_0:0:0-4:0:0_p95)
 
 Hilight Clip: [https://www.youtube.com/watch?v=QrCeRoz-5GU](https://www.youtube.com/watch?v=QrCeRoz-5GU)
-
 
 
 # Learn, build and debug
