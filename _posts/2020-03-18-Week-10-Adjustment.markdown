@@ -40,7 +40,7 @@ and thought that this may be caused by the resolution of my transition frame cli
 
 So I adjust my code to allow clip concatenation fo different size video clips and instead get this issue:
 
-[]()
+!["week10problem1.gif"](../images/week10/week10issue.gif "week10issue.gif")
 
 
 This is still caused by the different resolution between transition frame clips cand highlight clips.
@@ -72,10 +72,13 @@ Highlight Timestamp: [download](../images/week-7-9/563284208_15_0:0:0-4:0:0_p95)
 
 # Result
 
+After the adjustment mentioned above, let's take a look at the comparison:
+
 **Before adjustment**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7lGzH82fbss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br>
 **After adjustment**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L5DsrY1bIzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
