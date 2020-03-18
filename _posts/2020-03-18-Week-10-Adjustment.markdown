@@ -56,10 +56,12 @@ and it works as I want it to.
 # 3. Dealing with highlight overlap problem
 Also it is easy to notice that some highlights in the sample from week 4 experiment are duplicate, and this is caused by having multiple chat peak close together(maybe because that single highlight is really high).
 
-So I adjust it.
+So I write some code to deal with it.
 
 
-After these three adjustments, here is the comparison:
+# Result
+
+After the three adjustments mentioned above, let's take a look at the comparison:
 
 **VOD id: 563284208**
 
@@ -68,11 +70,7 @@ VOD length: 04:37:26
 Highlight extraction period: 00:00:00 ~ 04:00:00
 
 Highlight Timestamp: [download](../images/week-7-9/563284208_15_0:0:0-4:0:0_p95)
-
-
-# Result
-
-After the adjustment mentioned above, let's take a look at the comparison:
+<br>
 
 **Before adjustment**
 
