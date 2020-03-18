@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 5: Analysis On Last Experiment."
+title:  "Week 10: Adjustment."
 author: CheWei
 ---
 My research topic is to build a program that can automatically extract/locate timestamps of highlights from video game stream recording.
@@ -70,10 +70,12 @@ Highlight extraction period: 00:00:00 ~ 04:00:00
 Highlight Timestamp: [download](../images/week-7-9/563284208_15_0:0:0-4:0:0_p95)
 
 
+# Result
+
 **Before adjustment**
 
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=7lGzH82fbss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7lGzH82fbss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **After adjustment**
 
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=L5DsrY1bIzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L5DsrY1bIzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
