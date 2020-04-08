@@ -57,24 +57,24 @@ Last week, I mentioned that the web application can extracts 1080p highlight cli
 But now, it takes 42 minutes to generate a 720p one from same recording.
 
 
-# 2. Another Speed up of the highlight extractor
+# 2. Another Speed up of the Highlight Extractor
 
-To again speed  up the extractor, over the week, I took three measures:
+To again speed up the extractor, over the week, I took three measures:
 
 
-1. move to a better ec2 server, t2.micro(1 CPU, 1 GB memory) => t3.micro(2 CPU, 4 GB memory)
+## 1. Move to a better ec2 server, t2.micro(1 CPU, 1 GB memory) => t2.medium(2 CPU, 4 GB memory)
 
-[micro server](ec2-3-16-91-218.us-east-2.compute.amazonaws.com)
+[micro server](http://ec2-3-16-91-218.us-east-2.compute.amazonaws.com)
 
-Take 42 minutes to generate 720p highlight clips from 5-hrs-long recording.
+Takes 42 minutes to generate 720p highlight clips from 5-hrs-long recording.
 
-[medium server](ec2-3-15-195-168.us-east-2.compute.amazonaws.com)
+[medium server](http://ec2-3-15-195-168.us-east-2.compute.amazonaws.com)
 
-Take 22 minutes to generate 720p highlight clips from 5-hrs-long recording.
+Takes 22 minutes to generate 720p highlight clips from 5-hrs-long recording.
 
 The speed get boosted by two times, looks good...
 
-2. multi-threading/multi-processing
+## 2. Multi-threading/multi-processing
 
 After switch to a server that gets two CPUs.
 
@@ -85,7 +85,7 @@ But the effectivity is low.
 It even takes more time.
 
 
-3. Redesign the whole video concatenation algorithm to avoid as much video re-encoding as possible
+## 3. Redesign the whole video concatenation algorithm to avoid as much video re-encoding as possible
 
 After some researching about concatenating video with ffmpeg, I found this post:
 
@@ -101,13 +101,13 @@ After I re-desigin my algorithm, my program only re-encode transition clips to f
 
 The result is that right now, it is superrrrrrrrrrrr fastttttttttttttttttt.
 
-[micro server](ec2-3-16-91-218.us-east-2.compute.amazonaws.com)
+[micro server](http://ec2-3-16-91-218.us-east-2.compute.amazonaws.com)
 
-Take 5 minutes to generate 720p highlight clips from 5-hrs-long recording.
+Takes 5 minutes to generate 720p highlight clips from 5-hrs-long recording.
 
-[medium server](ec2-3-15-195-168.us-east-2.compute.amazonaws.com)
+[medium server](http://ec2-3-15-195-168.us-east-2.compute.amazonaws.com)
 
-Take 4 minutes to generate 720p highlight clips from 5-hrs-long recording.
+Takes 4 minutes to generate 720p highlight clips from 5-hrs-long recording.
 
 The only issue with the micro-server is that if the generate highlight-clip is too large, the server does not have enough memory to read it and aloow user to download, so I finally still decide to move to medium server... say goodbye to micro server :(.
 
