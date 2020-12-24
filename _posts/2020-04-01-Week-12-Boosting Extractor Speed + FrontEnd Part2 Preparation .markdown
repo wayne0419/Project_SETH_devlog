@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week 12: 2020-03-25-Week-12-Boosting Extractor Speed + FrontEnd Part2 Preparation"
+title:  "Week 12: Boosting Extractor Speed + FrontEnd Part2 Preparation"
 author: CheWei
 ---
 My research topic is to build a program that can automatically extract/locate timestamps of highlights from video game stream recording.
