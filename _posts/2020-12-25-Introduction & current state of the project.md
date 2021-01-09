@@ -20,10 +20,10 @@ Project SETH is going to help streamers on platforms like Twitch, Facebook Live,
 
 The algorithm behind Project SETH is about "crowd-sourcing", which is very different from most video game stream highlight tools on the market (actually different from all of them as far as I know). Those video game stream highlight tools utilize computer vision and machine learning to extract and analyze the "content" of the video game stream and then decide when does a highlight occur. On the other hand, instead of analyzing the "content" of the video game stream, Project SETH analyzes the "reaction" of the crowd, and the crowd includes audience as well as the streamer. Since all the information needed for my algorithm are collected from the crowd, so it is called "crowd-sourcing".
 
-One extra benefit of Project SETH using my crowd-sourcing algorithm to detect stream highlights is that "audience reaction" is much more consistent with different genres of video game streams, even non-video-game streams(e.g. cooking stream), while the "stream content" varies a lot, and so Project SETH is a much more general, versatile 
+One importrant benefit of Project SETH using my crowd-sourcing algorithm to detect stream highlights is that "audience reaction" is much more consistent with different genres of video game streams, even non-video-game streams(e.g. cooking stream), while the "stream content" varies a lot, and so Project SETH is a much more general and versatile solution to extracting highlights of all kinds of stream, on the other hand, for those highlight extraction tools that rely on analyzing the "stream content", for every new video game or new genre of streaming, they are likely to have to train a new model.
 
 
 
 # Current Status of Project SETH
 
-Right now, the 
+Right now, Project SETH is able to 
