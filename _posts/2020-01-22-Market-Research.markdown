@@ -5,6 +5,7 @@ author: CheWei
 ---
 My research topic is to build a program that can automatically extract/locate timestamps of highlights from video game stream recording.
 This project is going to help a lot for game streamers on platforms like Twitch, Facebook Live, YouTube Gaming Live and Chinese plafrom like Douyu, and game related video content creators on YouTube or Bilibili.
+
 This post is a list of the market-related information I think is relevant to my project.
 # Market Sector
 The market sector of this project falls into the area where video game streaming is extremely popular, which includes but not only :

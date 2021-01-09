@@ -4,8 +4,10 @@ title: "About"
 author: "CheWei"
 permalink: /about/
 ---
-
-This is the Devlog of Project SETH.
+## About this develog and Project SETH
+Welcome to this website!<br>
+This is the Devlog of Project SETH.<br>
+For a brief introduction of this project and its current state, please visit [this page](/2020-12-25/Introduction-&-current-state-of-the-project).
 
 ## About myself
 My name is CheWei Wang.

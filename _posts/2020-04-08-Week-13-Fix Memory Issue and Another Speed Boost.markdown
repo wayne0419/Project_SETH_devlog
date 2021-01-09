@@ -12,7 +12,7 @@ At the begiinning of this week, I found out a serious backend bug in my web appl
 
 While I was testing some twitch recording video(above 5 hrs long), it will leads to my 1-GB-memory ec2 server running out of memory, and getting errors like:
 
-{% highlight ruby %}
+{% highlight shell %}
 TracebackError: Cannot allocate memory.
 {% endhighlight %}
 
