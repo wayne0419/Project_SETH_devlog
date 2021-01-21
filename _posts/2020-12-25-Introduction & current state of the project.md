@@ -27,8 +27,17 @@ One importrant benefit of Project SETH using my crowd-sourcing algorithm to dete
 # Current Status of Project SETH
 
 Up to now, Project SETH has shown high effectiveness in extracting highlights from stream.<br>
-Here is a video list of demo and test case results along different stage of development:
 
+Here is a demo video of me using the web application of Project SETH:<br>
+[https://www.youtube.com/watch?v=1mxz_9V2h5Y](https://www.youtube.com/watch?v=1mxz_9V2h5Y)<br>
+The output result highlight clips video is provided here:<br>
+[https://www.youtube.com/watch?v=Yd81izwhl4U](https://www.youtube.com/watch?v=Yd81izwhl4U)<br>
+If you want to try it yourself, the web application of Project SETH can be accessed here:<br>
+[http://ec2-3-140-195-56.us-east-2.compute.amazonaws.com](http://ec2-3-140-195-56.us-east-2.compute.amazonaws.com)<br>
+
+If the link does not work, this is caused by me temporarily turning down the server for maintenence or adding new features.
+
+Here is a video list of demo and test case results along different stage of development:<br>
 [https://www.youtube.com/playlist?list=PLR1OVOGFjHaBxU3M8fACFNOFhgV-LpBi0](https://www.youtube.com/playlist?list=PLR1OVOGFjHaBxU3M8fACFNOFhgV-LpBi0)
 
 However, Project SETH has not reached its perfect from yet. Right now, as far as I have discovered,  there are scenarios that may cause mistakes in Project SETH's highlight extraction, either neglecting a highlight or mis-captured a non-highlight.
